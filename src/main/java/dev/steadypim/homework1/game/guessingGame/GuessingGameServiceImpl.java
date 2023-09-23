@@ -93,9 +93,7 @@ public class GuessingGameServiceImpl implements GuessingGameService, Game {
                     System.out.println("(⌒‿⌒)");
                     break;
                 } else {
-
                     handleIncorrectGuess(guessedNumber, randomNumber);
-
                 }
             }
         }
